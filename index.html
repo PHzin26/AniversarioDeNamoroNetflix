@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniversário de 2 anos - Pedro & Miaki</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="logo">
+      <img src="logo.png/Logo-Netflix.png" alt="" width="60px" />
+    </div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Series</a>
+      <a href="#">Filmes</a>
+      <a href="#">Minha Lista</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="conteudo">
+      <p class="título">Ph e Mimi</p>
+      <p class="detalhes">
+        <span>26 DE OUTUBRO, 2 TEMPORADAS</span>
+        <span class="stars">
+          <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+          <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+          <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+          <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+          <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+        </span>
+        <p class="descricao">
+          Mais um dia especial nas nossas vidas, nosso 2 anos de namoro
+          finalmente chegou, com isso, venho te mostrar nossa mini retropectiva
+          do nosso relacionamento. Deixar registrado o meu amor por você com 
+          um toque da minha área de paixão, juntando meus grandes amores que é
+          você e a programação! Deixo este mini site/projeto pessoal para demonstrar
+          o quanto eu te amo, e percebo isso a cada dia que eu 
+          passo ao teu lado, cada carinho, cada beijo
+          cada presente você me surpreende mais, ate nos jeitos que me fiz rir
+          e as outras pessoas ao redor é diferente, você exala energia 
+          e alegria por onde passa, ainda mais com esse sorrião lindo e iluminado.
+          <br>Deixo essa declaração em suas mãos para recordar e também me ajudar
+          como programador porque além de tudo isso é trabalho</br>
+          <br> Você é o amor da minha vida!!! muito obrigado
+          por cada dia vivido ao seu lado até hoje, e espere que vai vir mais 
+          temporadas!</br>
+        </p>
+        <div class="botoes">
+          <button><i class="fa-solid fa-play"></i> Continuar</button>
+          <button><i class="fa-solid fa-star"></i> Favorito</button>
+        </div>
+
+      </p>
+
+    </div>
+  </section>
+
+  <section class="momentos">
+    <h2>Nossos Melhores Momentos</h2>
+
+    <div class="swiper">
+    
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./fotos/1.jpg"></div>
+      <div class="swiper-slide"><img src="./fotos/2.jpg"></div>
+      <div class="swiper-slide"><img src="./fotos/3.jpg"></div>
+      <div class="swiper-slide"><img src="./fotos/4.jpg"></div>
+      <div class="swiper-slide"><img src="./fotos/5.jpg"></div>
+      <div class="swiper-slide"><img src="./fotos/6.jpg"></div>
+      <div class="swiper-slide"><img src="./fotos/7.jpg"></div>
+      <div class="swiper-slide"><img src="./fotos/8.jpg"></div>
+    </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    2025 - Pedro
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+      const swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction:false,
+    },
+    slidesPerView: 2,
+    spaceBetween: 10,
+    loop: true,
+    breakpoints: {
+      600: {
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+      900: {
+        loop: true,
+        slidesPerView: 4,
+        spaceBetween: 50,
+      }
+    }
+
+
+    });
+  </script>
+</body>
+</html>
